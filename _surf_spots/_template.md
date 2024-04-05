@@ -41,6 +41,7 @@ Géographie:
       Longitude: -1.
 Photos:
   - photos/photo.jpg
+output: false
 ---
 
 # Le spot

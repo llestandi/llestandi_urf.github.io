@@ -36,17 +36,17 @@ Géographie:
   Maps: "https://maps.app.goo.gl/SENW8ER16afeSCT17"
   Points_d'Intérêt:
     - Nom: "Parking Port Blanc"
-      - Description: ""
-      - Latitude: ""
-      - Longitude: ""
+      Description: ""
+      Latitude: ""
+      Longitude: ""
     - Nom: "Spot Port Rhu"
-      -Description": "Plus au sud, la plage de port Rhu (accessible à marée basse ou par la falaise)"
-      - Latitude: 47.51585193150015
-      - Longitude: -3.1530781624471813
+      Description": "Plus au sud, la plage de port Rhu (accessible à marée basse ou par la falaise)"
+      Latitude: 47.51585193150015
+      Longitude: -3.1530781624471813
     - Nom: "Spot Port Bara"
-      - Description: "Au bout de la baie (Sud), accés facile avec surf autour du petit rocher"
-      - Latitude: 47.51453380817244
-      - Longitude: -3.1528067888946296
+      Description: "Au bout de la baie (Sud), accés facile avec surf autour du petit rocher"
+      Latitude: 47.51453380817244
+      Longitude: -3.1528067888946296
 Photos:
   - photos/photo.jpg
 ---

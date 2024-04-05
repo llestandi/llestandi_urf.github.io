@@ -1,6 +1,6 @@
 ---
 author: Lucas Lestandi
-date: 01/03/2024
+date: 04/04/2024
 title: Saint Gilles
 ID: st_gilles
 Département: 85
@@ -40,8 +40,8 @@ Géographie:
       Description: "Un grand parking, à éviter l'été et surtout l'après midi. Toilettes au bout du remblais"
       Latitude: 46.685595569251156
       Longitude: -1.933935874549777
-Photos:
-  - photos/st_gilles.jpg
+header:
+  image: /assets/images/st_gilles.jpg
 ---
 
 # Le spot
@@ -60,9 +60,9 @@ Pour tout le monde : longboards, shortboards et débutants.
 Relativement faible, généralement vers le sud.
 
 # Pour
-- Aucun
+- A faire
 
 # Contre
-- Aucun
+- A faire
 
 # Saisonnalité

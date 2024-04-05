@@ -41,10 +41,8 @@ Géographie:
       Description: "Au parking suivant, le spot des rochelets qui fonctionne sur les mêmes bases"
       Latitude: 47.2159706415278
       Longitude: -2.1673015395002824
-Photos:
-  - assets/images/photo.jpg
-toc: true
-comments: true
+header: 
+  image: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg
 ---
 
 # Le spot de l'Ermitage (Saint Brévin les pins)
@@ -58,18 +56,19 @@ Sa position au fond de l'estuaire fait que la houle est nettement filtrée par l
 > *Une bonne source pour se rendre compte du phénomène est opérée par l'[IFREMER](https://marc.ifremer.fr/resultats/vagues/modeles_atlantique_nord/(typevisu)/map/(zoneid)/7068#appTop)*
 >
 > *Ci-dessous deux capture d'une houle très fortement amortie dans l'estuaire*
-![Marée Haute, environs 4m au large](assets/images/MARC_maree_haute_stBrevin.png)
-![Marée Basse, environs 3m50 au large](assets/images/MARC_maree_basse_stBrevin.png)
+{% include figure image_path="/assets/images/MARC_maree_haute_stBrevin.png" alt="" caption="Marée Haute, environs 4m de houle au large" %}
+{% include figure image_path="/assets/images/MARC_maree_basse_stBrevin.png" caption="Marée Basse, environs 3m50 de houle au large"%}
 > On voit très nettement que la houle ne rentre plus du tout à marée basse alors qu'a marée haute, le spot de l'Ermitage reçoit environs 1m25.
 
 ## Interpréter les prévisions
 Puisque le fonctionnement du spot est très influencé par les paramètres locaux, il y a fort à parier pour que votre site de prévision favori n'en tiennent pas ou peu compte. C'est le cas des plus connus (surf-report.com, surf-forecast et windguru) puisqu'ils reposent sur des modèles à grande échelle (voir [guide du débutant](à/faire)). Dans ces conditions, je conseille d'appliquer un facteur 0.7 à  marée haute, c'est à dire 1.7m annoncé donne environs 1,2m à la grosse série pour des périodes élevée.  A mi-marée, on peut s'attendre à un ammortissement encore plus important, ce qui nous donne généralement la moitié du forecast pour la plupart des vagues.
 
 > Exemple de report personnel de Lucas:
-> | Date       | lieu        | marée    | prévisions houle | Période | vent     | vague moyenne | vague série (réelle) | type de vague                  |
-> | ---------- | ----------- | -------- | ---------------- | ------- | -------- | ------------- | -------------------- | ------------------------------ |
-> | 02/03/2024 | l'Ermitage  | mi-basse | 1.7              | 14      | nul      | 0.8           | 1.2                  | Rapides et creuses à fermantes |
-> | Juin 2022  | Le pointeau | Haute    | 1                | ?       | offshore | 0.5           | 0.8                  | Jolie                          |
+
+| Date       | lieu        | marée    | prévisions houle | Période | vent     | vague moyenne | vague série (réelle) | type de vague                  |
+| ---------- | ----------- | -------- | ---------------- | ------- | -------- | ------------- | -------------------- | ------------------------------ |
+| 02/03/2024 | l'Ermitage  | mi-basse | 1.7              | 14      | nul      | 0.8           | 1.2                  | Rapides et creuses à fermantes |
+| Juin 2022  | Le pointeau | Haute    | 1                | ?       | offshore | 0.5           | 0.8                  | Jolie                          |
 
 
 # Pour Qui
