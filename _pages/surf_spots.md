@@ -1,5 +1,5 @@
 ---
-title: surf_spots
+title: Les spots de l'Ouest et d'ailleurs
 layout: collection
 permalink: /surf_spots/
 collection: surf_spots
@@ -9,6 +9,7 @@ classes: wide
 # Surf spots
 Ceci est le guide des spots de surf. 
 
-> A venir: un moteur de recherche
-> Des guides sur les spots du weekend à Audierne
+> A venir:
+> - un moteur de recherche
+> - des guides sur les spots du weekend à Audierne
 
