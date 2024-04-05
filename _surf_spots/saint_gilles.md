@@ -1,41 +1,42 @@
 ---
+layout: spot
 author: Lucas Lestandi
 date: 04/04/2024
 title: Saint Gilles
 ID: st_gilles
-Département: 85
+Departement: 85
 Infos_de_Base:
   Houles:
     Direction:
-      - NO
-      - SO
+      - "NO"
+      - "SO"
     Taille:
       - 0.5
       - 2
-    Période:
+    Periode:
       - 8
       - 12
   Vent:
-    - N
-    - E
+    - "N"
+    - "E"
   Type_de_Fond:
     - Sable
-  Marée: Toutes
-  Difficulté: modérée
+  Maree: Toutes
+  Difficulte: modérée
   Type_de_vagues:
     - moles
     - courtes
-  Accès:
+  Acces:
     - Voiture
     - Train
   Ambiance: Chill
-  Fréquentation: Élevée
-Géographie:
+  Frequentation: Élevée
+Geographie:
   Position_GPS:
     Latitude: 46.688102975870635
     Longitude: -1.9396590483526974
   Maps: https://maps.app.goo.gl/efnzuv3BFFY2o5bF9
-  Points_d'Intérêt:
+  Points_dInteret:
     - Nom: Parking Remblais
       Description: "Un grand parking, à éviter l'été et surtout l'après midi. Toilettes au bout du remblais"
       Latitude: 46.685595569251156

@@ -98,8 +98,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc: true
       toc_sticky: true
-      comments: true 
       share: false
   
     # __beginner_guide

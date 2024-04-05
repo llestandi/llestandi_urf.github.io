@@ -3,7 +3,7 @@ author: Lucas Lestandi
 date: 01/03/2024
 title: Port Blanc
 ID: port_blanc
-Département: 56
+Departement: 56
 Infos_de_Base:
   Houles:
     Direction:
@@ -12,7 +12,7 @@ Infos_de_Base:
     Taille:
       - 0.5
       - 2
-    Période:
+    Periode:
       - 8
       - 13
   Vent:
@@ -20,21 +20,21 @@ Infos_de_Base:
     - E
   Type_de_Fond:
     - Sable
-  Marée: Basse
-  Difficulté: Intermédiaire
+  Maree: Basse
+  Difficulte: Intermédiaire
   Type_de_vagues:
     - "Assez puissantes"
     - "courtes"
-  Accès:
+  Acces:
     - Voiture
   Ambiance: "Assez compétitif"
-  Fréquentation:  "Elevée"
-Géographie:
+  Frequentation:  "Elevée"
+Geographie:
   Position_GPS:
     Latitude: 47.52341649142791
     Longitude: -3.1548950594453724
   Maps: "https://maps.app.goo.gl/SENW8ER16afeSCT17"
-  Points_d'Intérêt:
+  Points_dInteret:
     - Nom: "Parking Port Blanc"
       Description: ""
       Latitude: ""

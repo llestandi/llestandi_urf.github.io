@@ -3,7 +3,7 @@ author: Lucas Lestandi
 date: 01/03/2024
 title: spotname
 ID: tbd
-Département: 85
+Departement: 85
 Infos_de_Base:
   Houles:
     Direction:
@@ -12,7 +12,7 @@ Infos_de_Base:
     Taille:
       - 0.5
       - 2
-    Période:
+    Periode:
       - 8
       - 12
   Vent:
@@ -20,21 +20,21 @@ Infos_de_Base:
     - E
   Type_de_Fond:
     - Sable
-  Marée: Toutes
-  Difficulté: modérée
+  Marze: Toutes
+  Difficulte: modérée
   Type_de_vagues:
     - moles
     - courtes
-  Accès:
+  Acces:
     - Voiture
   Ambiance: tbd
-  Fréquentation: tbd
-Géographie:
+  Frequentation: tbd
+Geographie:
   Position_GPS:
     Latitude: 46.
     Longitude: -1.
   Maps: https://maps.app.goo.gl/
-  Points_d'Intérêt:
+  Points_dInteret:
     - Nom: ""
       Description: ""
       Latitude: 46.
@@ -44,6 +44,10 @@ Photos:
 output: false
 ---
 
+
+| Taille                            | Direction | Période |
+| ---------------------------------- | --------- | ------- |
+| {{ page.Infos_de_Base.Taille[0] }} | 1          |    1     |
 # Le spot
 
 # Mise à l'eau

@@ -1,0 +1,71 @@
+---
+layout: single
+---
+
+<h1> En bref </h1>
+<h2>Informations Générales</h2>
+<ul>
+  <li>Nom du spot: {{ page.name }}</li>
+  <li>Département: {{ page.Departement }}</li>
+  <li>Difficulté: {{ page.Infos_de_Base.Difficulte }}</li>
+  <li>Marée: {{ page.Infos_de_Base.Maree }}</li>
+  <li>Fenêtre de vent idéale: [{{ page.Infos_de_Base.Vent[0] }}-{{ page.Infos_de_Base.Vent[1] }}]</li>
+</ul>
+
+<table>
+  <caption>Houle</caption>
+  <tr>
+    <th></th>
+    <th>Minimum</th>
+    <th>Maximum</th>
+  </tr>
+  <tr>
+    <th>Taille (m)</th>
+    <td>{{ page.Infos_de_Base.Houles.Taille[0] }}</td>
+    <td>{{ page.Infos_de_Base.Houles.Taille[1] }}</td>
+  </tr>
+  <tr>
+    <th>Direction</th>
+    <td>{{ page.Infos_de_Base.Houles.Direction[0] }}</td>
+    <td>{{ page.Infos_de_Base.Houles.Direction[1] }}</td>
+  </tr>
+  <tr>
+    <th>Période (s)</th>
+    <td>{{ page.Infos_de_Base.Houles.Periode[0] }}</td>
+    <td>{{ page.Infos_de_Base.Houles.Periode[1] }}</td>
+  </tr>
+</table>
+
+<ul>
+  <li>Latitude: {{ page.Geographie.Position_GPS.Latitude }}</li>
+  <li>Longitude: {{ page.Geographie.Position_GPS.Longitude }}</li>
+</ul>
+<p>Maps: <a href="{{ page.Geographie.Maps }}">{{ page.Geographie.Maps }}</a></p>
+
+<h2>Conditions sur Place</h2>
+<ul>
+  <li>Type de fond:</li>
+  <ul>
+    {% for item in page.Infos_de_Base.Type_de_Fond %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <li>Type de vagues:</li>
+  <ul>
+    {% for item in page.Infos_de_Base.Type_de_vagues %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <li>Accès:</li>
+  <ul>
+    {% for item in page.Infos_de_Base.Acces %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <li>Ambiance: {{ page.Infos_de_Base.Ambiance }}</li>
+  <li>Fréquentation: {{ page.Infos_de_Base.Frequentation }}</li>
+</ul>
+
+
+
+{{ content }}

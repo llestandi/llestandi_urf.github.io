@@ -1,48 +1,55 @@
 ---
+layout: spot
 author: Lucas Lestandi
 date: 01/03/2024
 title: Saint Brevin
 name: Saint Brevin
 ID: st_brevin
 output: true
-Département: 44
-layout: single
+Departement: 44
 Infos_de_Base:
   Houles:
     Direction:
-      - O
-      - SO
+      - "O"
+      - "SO"
     Taille:
       - 1
       - 5
-    Période:
+    Periode:
       - 8
       - 13
   Vent:
-    - E
+    - "E"
   Type_de_Fond:
     - Sable
-  Marée: Haute
-  Difficulté: mousses faciles, vagues difficile 
+  Maree: Haute
+  Difficulte: mousses faciles, vagues difficile 
   Type_de_vagues:
     - creuses
     - courtes à fermantes
-  Accès:
+  Acces:
     - Voiture
   Ambiance: Chill
-  Fréquentation: Très saisonière
-Géographie:
+  Frequentation: Très saisonière
+Geographie:
   Position_GPS:
     Latitude: 47.208066759820326
     Longitude: -2.1580758454364775
   Maps: https://maps.app.goo.gl/xjBS6jFp3DK8xLDC9
-  Points_d'Intérêt:
+  Points_dInteret:
     - Nom: "Les Rochelets"
       Description: "Au parking suivant, le spot des rochelets qui fonctionne sur les mêmes bases"
       Latitude: 47.2159706415278
       Longitude: -2.1673015395002824
 header: 
   teaser: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg
+  overlay_image: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg
+  caption: "Crédit : saint-brevin.com"
+  actions:
+    - label: "Prévisions"
+      url: "https://fr.surf-forecast.com/breaks/St-Brevin-l-Ermitage/forecasts/latest/six_day"
+
+excerpt: "Le spot le plus proche de Nantes"
 ---
 
 # Le spot de l'Ermitage
