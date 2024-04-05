@@ -5,9 +5,7 @@ main:
     url: /surf_spots/
   - title: "Guide débutants"
     url: /beginner_guide/
-  - title: "Categories"
-    url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
+  - title: "A propos"
     url: /about/

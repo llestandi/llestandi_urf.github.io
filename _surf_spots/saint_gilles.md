@@ -42,8 +42,14 @@ Géographie:
       Longitude: -1.933935874549777
 header:
   teaser: /assets/images/st_gilles.jpg
----
+  overlay_image: /assets/images/st_gilles.jpg
+  caption: "Vue du remblais."
+  actions:
+    - label: "Prévisions"
+      url: "https://www.surf-forecast.com/breaks/Saint-Gilles-Croixde-Vie/forecasts/latest/six_day"
 
+excerpt: "Saint-Gilles : le beach break par tout temps "
+---
 # Le spot
 Saint-Gilles est un spot de sable (beach break). Il ne présente pas de danger pour les débutants. Vous pouvez choisir les endroits les moins exposés si vous souhaitez réduire la taille des vagues, par exemple près du remblai. Il y a moins de houle on se rapprochant du port. Par contre si on va vers le spot dit de la passerelle, alors les vagues sont plus importantes.
 
