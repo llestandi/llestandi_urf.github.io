@@ -47,8 +47,8 @@ Géographie:
       Description: "Au bout de la baie (Sud), accés facile avec surf autour du petit rocher"
       Latitude: 47.51453380817244
       Longitude: -3.1528067888946296
-Photos:
-  - photos/photo.jpg
+header:
+  teaser: /assets/images/PortBlanc_2.jpg
 ---
 
 # Le spot

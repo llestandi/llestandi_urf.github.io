@@ -42,7 +42,7 @@ Géographie:
       Latitude: 47.2159706415278
       Longitude: -2.1673015395002824
 header: 
-  image: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg
+  teaser: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg
 ---
 
 # Le spot de l'Ermitage (Saint Brévin les pins)

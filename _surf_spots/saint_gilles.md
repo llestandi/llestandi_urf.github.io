@@ -41,7 +41,7 @@ Géographie:
       Latitude: 46.685595569251156
       Longitude: -1.933935874549777
 header:
-  image: /assets/images/st_gilles.jpg
+  teaser: /assets/images/st_gilles.jpg
 ---
 
 # Le spot
