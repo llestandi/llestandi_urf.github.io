@@ -54,7 +54,7 @@ header:
   caption: "Le magnifique spot de port blanc (Weekend ALOA 2 Avril 2023)"
   actions:
     - label: "Prévisions"
-      url: "https://www.surf-forecast.com/breaks/Saint-Gilles-Croixde-Vie/forecasts/latest/six_day"
+      url: "https://fr.surf-forecast.com/breaks/Port-Blanc/forecasts/latest/six_day"
 
 excerpt: "La magie de la presqu'île de Quiberon."
 ---
