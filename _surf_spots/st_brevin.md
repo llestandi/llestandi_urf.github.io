@@ -2,8 +2,8 @@
 layout: spot
 author: Lucas Lestandi
 date: 01/03/2024
-title: Saint Brevin
-name: Saint Brevin
+title: "Saint-Brevin l'Ermitage"
+name: "L'Ermitage"
 ID: st_brevin
 output: true
 Departement: 44
@@ -19,9 +19,9 @@ Infos_de_Base:
       - 8
       - 13
   Vent:
-    - "E"
-  Type_de_Fond:
-    - Sable
+    - "NE"
+    - "SE"
+  Type_de_Fond: Sable
   Maree: Haute
   Difficulte: mousses faciles, vagues difficile 
   Type_de_vagues:
@@ -41,6 +41,8 @@ Geographie:
       Description: "Au parking suivant, le spot des rochelets qui fonctionne sur les mêmes bases"
       Latitude: 47.2159706415278
       Longitude: -2.1673015395002824
+
+
 header: 
   teaser: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg
   overlay_image: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg

@@ -1,7 +1,9 @@
 ---
+layout: spot
 author: Lucas Lestandi
 date: 01/03/2024
 title: Port Blanc
+name: Port Blanc
 ID: port_blanc
 Departement: 56
 Infos_de_Base:
@@ -18,8 +20,7 @@ Infos_de_Base:
   Vent:
     - N
     - E
-  Type_de_Fond:
-    - Sable
+  Type_de_Fond: Sable
   Maree: Basse
   Difficulte: Intermédiaire
   Type_de_vagues:
@@ -49,6 +50,13 @@ Geographie:
       Longitude: -3.1528067888946296
 header:
   teaser: /assets/images/PortBlanc_2.jpg
+  overlay_image: /assets/images/PortBlanc_2.jpg
+  caption: "Le magnifique spot de port blanc (Weekend ALOA 2 Avril 2023)"
+  actions:
+    - label: "Prévisions"
+      url: "https://www.surf-forecast.com/breaks/Saint-Gilles-Croixde-Vie/forecasts/latest/six_day"
+
+excerpt: "La magie de la presqu'île de Quiberon."
 ---
 
 # Le spot

@@ -19,8 +19,7 @@ Infos_de_Base:
   Vent:
     - "N"
     - "E"
-  Type_de_Fond:
-    - Sable
+  Type_de_Fond: Sable
   Maree: Toutes
   Difficulte: modérée
   Type_de_vagues:

@@ -1,71 +1,161 @@
 ---
-layout: single
+layout: default
 ---
 
-<h1> En bref </h1>
-<h2>Informations Générales</h2>
-<ul>
-  <li>Nom du spot: {{ page.name }}</li>
-  <li>Département: {{ page.Departement }}</li>
-  <li>Difficulté: {{ page.Infos_de_Base.Difficulte }}</li>
-  <li>Marée: {{ page.Infos_de_Base.Maree }}</li>
-  <li>Fenêtre de vent idéale: [{{ page.Infos_de_Base.Vent[0] }}-{{ page.Infos_de_Base.Vent[1] }}]</li>
-</ul>
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
 
-<table>
-  <caption>Houle</caption>
-  <tr>
-    <th></th>
-    <th>Minimum</th>
-    <th>Maximum</th>
-  </tr>
-  <tr>
-    <th>Taille (m)</th>
-    <td>{{ page.Infos_de_Base.Houles.Taille[0] }}</td>
-    <td>{{ page.Infos_de_Base.Houles.Taille[1] }}</td>
-  </tr>
-  <tr>
-    <th>Direction</th>
-    <td>{{ page.Infos_de_Base.Houles.Direction[0] }}</td>
-    <td>{{ page.Infos_de_Base.Houles.Direction[1] }}</td>
-  </tr>
-  <tr>
-    <th>Période (s)</th>
-    <td>{{ page.Infos_de_Base.Houles.Periode[0] }}</td>
-    <td>{{ page.Infos_de_Base.Houles.Periode[1] }}</td>
-  </tr>
-</table>
+{% assign breadcrumbs_enabled = site.breadcrumbs %}
+{% if page.breadcrumbs != null %}
+  {% assign breadcrumbs_enabled = page.breadcrumbs %}
+{% endif %}
+{% if page.url != "/" and breadcrumbs_enabled %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
 
-<ul>
-  <li>Latitude: {{ page.Geographie.Position_GPS.Latitude }}</li>
-  <li>Longitude: {{ page.Geographie.Position_GPS.Longitude }}</li>
-</ul>
-<p>Maps: <a href="{{ page.Geographie.Maps }}">{{ page.Geographie.Maps }}</a></p>
+<div id="main" role="main">
+  {% include sidebar.html %}
 
-<h2>Conditions sur Place</h2>
-<ul>
-  <li>Type de fond:</li>
-  <ul>
-    {% for item in page.Infos_de_Base.Type_de_Fond %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-  <li>Type de vagues:</li>
-  <ul>
-    {% for item in page.Infos_de_Base.Type_de_vagues %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-  <li>Accès:</li>
-  <ul>
-    {% for item in page.Infos_de_Base.Acces %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-  <li>Ambiance: {{ page.Infos_de_Base.Ambiance }}</li>
-  <li>Fréquentation: {{ page.Infos_de_Base.Frequentation }}</li>
-</ul>
+  <!-- MY CHANGES -->
+  <div class="sidebar sticky">
+    <h1> En bref </h1>
+    <b>Nom du spot:</b> {{ page.name }}
+    <ul>
+      <li>Difficulté: {{ page.Infos_de_Base.Difficulte }}</li>
+      <li>Marée: {{ page.Infos_de_Base.Maree }}</li>
+      <li>Fenêtre de vent idéale: [{{ page.Infos_de_Base.Vent[0] }}-{{ page.Infos_de_Base.Vent[1] }}]</li>
+    </ul>
+    <table>
+      <caption>Houle</caption>
+      <tr>
+        <th></th>
+        <th>Min</th>
+        <th>Max</th>
+      </tr>
+      <tr>
+        <th>Taille (m)</th>
+        <td>{{ page.Infos_de_Base.Houles.Taille[0] }}</td>
+        <td>{{ page.Infos_de_Base.Houles.Taille[1] }}</td>
+      </tr>
+      <tr>
+        <th>Direction</th>
+        <td>{{ page.Infos_de_Base.Houles.Direction[0] }}</td>
+        <td>{{ page.Infos_de_Base.Houles.Direction[1] }}</td>
+      </tr>
+      <tr>
+        <th>Période (s)</th>
+        <td>{{ page.Infos_de_Base.Houles.Periode[0] }}</td>
+        <td>{{ page.Infos_de_Base.Houles.Periode[1] }}</td>
+      </tr>
+    </table>
 
+    <h2>Conditions sur Place</h2>
+    <ul>
+      <li>Type de fond: {{ page.Infos_de_Base.Type_de_Fond }}</li>
+      <li>Type de vagues:</li>
+      <ul>
+        {% for item in page.Infos_de_Base.Type_de_vagues %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      <li>Ambiance: {{ page.Infos_de_Base.Ambiance }}</li>
+      <li>Fréquentation: {{ page.Infos_de_Base.Frequentation }}</li>
+    </ul>
 
+    <h2>S'y rendre</h2>
+    <p>Département: {{ page.Departement }}</p>
+    <p>Point GPS : ({{ page.Geographie.Position_GPS.Latitude }}, {{ page.Geographie.Position_GPS.Longitude }})</p>
+    <p><b>Google Maps</b>: <a href="{{ page.Geographie.Maps }}">{{ page.Geographie.Maps }}</a></p>
+    <li>Accès:</li>
+    <ul>
+      {% for item in page.Infos_de_Base.Acces %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
 
-{{ content }}
+    <h2>Spots et lieux d'intérêts:</h2>
+      {% for item in page.Geographie.Points_dInteret %}
+        <p> <b>{{item.Nom}}</b> </br>
+          <i>{{item.Description}}</i></br>
+          Position ({{item.Latitude}},{{item.Longitude}})</p>
+      {% endfor %}
+  </div>
+  <!--END OF MY CHANGES -->
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+          </h1>{% endif %}
+          {% include page__meta.html %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content e-content" itemprop="text">
+        {% if page.toc %}
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+            </nav>
+          </aside>
+        {% endif %}
+        {{ content }}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+        {% include page__date.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
+    </div>
+
+    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:4 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
+  {% elsif page.id and page.related %}
+    <div class="page__related">
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <div class="grid__wrapper">
+        {% for post in site.posts limit:4 %}
+          {% if post.id == page.id %}
+            {% continue %}
+          {% endif %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
