@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Guide du surfeur de Loire Atlantique
+email: lucas.lestandi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Ce site a pour but de partager les connaissances que j'ai acquise autour du surf et des spots de l'ouest de la France.
+baseurl: surf
+url: https://llestandi.github.io
+github_username: llestandi
+minimal_mistakes_skin: air
 search: true
+locale: "fr"
+
 
 # Build settings
 markdown: kramdown
@@ -58,34 +59,17 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Lucas Lestandi"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Salut ! C'est Lucas je surf depuis 2017, j'ai arpenté des surf dans bien des endroit et j'ai envie de partager ce que j'ai appris sur les spots et les vagues. Pour la technique on repassera et puis, il y a youtube. Membre de l'Association Loire Atlantique de surf depuis 2022. Je suis Maitre de Conférence à l'école Centrale de Nantes spécialiste de la simulation numérique pour la mécanique ce qui explique une passion pour la théorie et la modélisation que je m'efforcerait de partager dans les différents guide qui viendrons peupler cette page.s"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://llestandi.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/llestandi"
+    
 
 defaults:
   # _posts
@@ -107,9 +91,34 @@ defaults:
       layout: single
       author_profile: true
 
+    # _surf_posts
+  - scope:
+      path: ""
+      type: surf_spots
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  
+    # __beginner_guide
+  - scope:
+      path: ""
+      type: beginner_guide
+    values:
+      layout: single
+      author_profile: true
+
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+
+# TODO Check whether this is correct
+collections:
+  surf_spots:
+    output: True
+    permalink: /:collection/:path/
+  beginner_guide:
+    output: True
