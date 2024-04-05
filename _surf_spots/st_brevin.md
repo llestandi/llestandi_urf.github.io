@@ -45,20 +45,24 @@ header:
   teaser: https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg
 ---
 
-# Le spot de l'Ermitage (Saint Brévin les pins)
+# Le spot de l'Ermitage
 Pour les nantais, c'est le spot de le plus proche de la maison, puisqu'il se situe à seulement 50km (contre 90 pour la vendée). Il se trouve à l'embouchure de la Loire ce qui implique une eau chargée en limons à l'aspect très marron et au gout douteux. Néanmoins la qualité de l'eau est suivie par les autorités et tout danger serait clairement indiqué aux points d'accés. Vous y surferez des vagues souvent creuses et fermantes mais qui peuvent réserver de bonnes surprises. Un spot sympa pour débuter dans les mousses.
 
-> **Attention, le spot ne fonctionne qu'a marée haute.**
+{% include figure image_path="https://www.saint-brevin.com/medias/images/prestataires/multitailles/800x600_saintbrevinlespins-foretpierreattelee-vueocean2-bd-ddufour-2021-8868.jpg" alt="" caption="La plage de l'Ermitage vue du ciel. Crédits: www.saint-brevin.com" %}
+
+**Attention, le spot ne fonctionne qu'a marée haute.**
+{: .notice--danger}
 
 ## Pourquoi les spots de l'estuaire fonctionnent à marée haute uniquement
 Sa position au fond de l'estuaire fait que la houle est nettement filtrée par les hauts-fonds entre Prévaille et Saint Nazaire. Ceci à plusieurs conséquences, la première est qu'a marée basse (et en particulier pour les faibles fréquences), la houle ne rentre pas! Il faut attendre un niveau d'eau important (environs 3m, c'est à dire après la mie marée et à marée haute) pour que la houle rentre. Même dans ces conditions, vous pouvez vous attendre à perdre 30 à 50% de la hauteur de houle annoncée. [Pour plus de détail, voir le guide des spots](guide_des_spots.html)
 
-> *Une bonne source pour se rendre compte du phénomène est opérée par l'[IFREMER](https://marc.ifremer.fr/resultats/vagues/modeles_atlantique_nord/(typevisu)/map/(zoneid)/7068#appTop)*
->
-> *Ci-dessous deux capture d'une houle très fortement amortie dans l'estuaire*
+*Une bonne source pour se rendre compte du phénomène est opérée par l'[IFREMER](https://marc.ifremer.fr/resultats/vagues/modeles_atlantique_nord/(typevisu)/map/(zoneid)/7068#appTop)*
+*Ci-dessous deux capture d'une houle très fortement amortie dans l'estuaire*
+{: .notice--warning}
 {% include figure image_path="/assets/images/MARC_maree_haute_stBrevin.png" alt="" caption="Marée Haute, environs 4m de houle au large" %}
 {% include figure image_path="/assets/images/MARC_maree_basse_stBrevin.png" caption="Marée Basse, environs 3m50 de houle au large"%}
-> On voit très nettement que la houle ne rentre plus du tout à marée basse alors qu'a marée haute, le spot de l'Ermitage reçoit environs 1m25.
+On voit très nettement que la houle ne rentre plus du tout à marée basse alors qu'a marée haute, le spot de l'Ermitage reçoit environs 1m25.
+{: .notice-warinng}
 
 ## Interpréter les prévisions
 Puisque le fonctionnement du spot est très influencé par les paramètres locaux, il y a fort à parier pour que votre site de prévision favori n'en tiennent pas ou peu compte. C'est le cas des plus connus (surf-report.com, surf-forecast et windguru) puisqu'ils reposent sur des modèles à grande échelle (voir [guide du débutant](à/faire)). Dans ces conditions, je conseille d'appliquer un facteur 0.7 à  marée haute, c'est à dire 1.7m annoncé donne environs 1,2m à la grosse série pour des périodes élevée.  A mi-marée, on peut s'attendre à un ammortissement encore plus important, ce qui nous donne généralement la moitié du forecast pour la plupart des vagues.
@@ -82,6 +86,7 @@ C'est un spot qui sera difficile pour les surfeurs du début de la catégorie in
 Pour les plus avancés d'entre nous, saint Brévin n'est généralement pas le premier choix mais sur des grosses conditions, sa capacité à filtrer la houle et offrir des vagues creuses à deux pas de la maison en font une solution de replis intéressantes. C'est l'occasion de travailler la technique de vagues creuses sans prise de tête. Il ne faut néanmoins pas en attendre de longues vagues à manoeuvre.
 
 # Conseils
+
 ## Mise à l'eau
 
 > Je vous conseille de bien choisir votre pic en prenant le temps d'observer en détail le spot. Entre les rochelets et l'Ermitage, il peut y avoir un banc de sable intéressant à la sortie du cours d'eau. Celui ci ouvrira un peu plus pour vous offrir un peu plus de temps
