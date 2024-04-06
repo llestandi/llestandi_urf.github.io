@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Lucas Lestandi"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Salut ! C'est Lucas un petit gars du sud-ouest immigré à Nantes. Je surf depuis 2017, j'ai arpenté les spots de 3 continents avec mon niveau intermédiaire et j'ai envie de partager ce que j'ai appris sur les spots et les vagues."
+  bio    : "Salut! C'est Lucas un petit gars du sud-ouest qui a posé ses valises à Nantes. Je surf depuis 2017, j'ai arpenté les spots de 3 continents avec mon niveau intermédiaire et j'ai envie de partager ce que j'ai appris sur les spots et les vagues. Pour la technique on repassera et puis il y a youtube."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
