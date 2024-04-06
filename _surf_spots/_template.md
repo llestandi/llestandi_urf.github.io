@@ -1,14 +1,18 @@
 ---
+layout: spot
+output: false
+
 author: Lucas Lestandi
-date: 01/03/2024
+date: 04/04/2024
 title: spotname
+name: spotname
 ID: tbd
 Departement: 85
 Infos_de_Base:
   Houles:
     Direction:
-      - NO
-      - SO
+      - "NO"
+      - "SO"
     Taille:
       - 0.5
       - 2
@@ -16,12 +20,12 @@ Infos_de_Base:
       - 8
       - 12
   Vent:
-    - N
-    - E
+    - "N"
+    - "E"
   Type_de_Fond:
     - Sable
-  Marze: Toutes
-  Difficulte: modérée
+  Maree: Toutes
+  Difficulte: ""
   Type_de_vagues:
     - moles
     - courtes
@@ -39,15 +43,18 @@ Geographie:
       Description: ""
       Latitude: 46.
       Longitude: -1.
-Photos:
-  - photos/photo.jpg
-output: false
+
+header: 
+  teaser: /assets/images/placeholder.jpg
+  overlay_image: /assets/images/placeholder.jpg
+  caption: "Crédit: "
+  actions:
+    - label: "Prévisions"
+      url: "https://fr.surf-forecast.com/"
+
+excerpt: ""
 ---
 
-
-| Taille                            | Direction | Période |
-| ---------------------------------- | --------- | ------- |
-| {{ page.Infos_de_Base.Taille[0] }} | 1          |    1     |
 # Le spot
 
 # Mise à l'eau
@@ -58,9 +65,7 @@ output: false
 # Courant
 
 # Pour
-- Aucun
 
 # Contre
-- Aucun
 
 # Saisonnalité

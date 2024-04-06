@@ -60,14 +60,14 @@ excerpt: "La magie de la presqu'île de Quiberon."
 ---
 
 # Le spot
-Magnifique plage abritée du vent de nord qui offre une vision dépaysante entre les falaises. Le spot capte très bien les houles d'ouest et se tirera profit d'un vent d'est. Attention à la fréquentation élevée du lieu, surtout l'été puisqu'il prend bien la houle. Le fond surfable (en particulier à marée basse) est un banc de sable qui ne pose pas de danger particulier. Attention tout même aux courants, surtout si les vagues sont grosses. Vous aurez la possibilité de vous écarter vers le sud port Rhu et Port Bara qui prennent un peu plus la houle et offrent des bancs assez bien formés. Pas vraiment débutant friendly, préférez plutot les plages de Plouharnel et Penthievre (Mane Guen, Guéritte,...)
+Magnifique plage abritée du vent de nord qui offre une vision dépaysante entre les falaises. Le spot capte très bien les houles d'ouest et se tirera profit d'un vent d'est. Attention à la fréquentation élevée du lieu, surtout l'été puisqu'il prend bien la houle. Le fond surfable (en particulier à marée basse) est un banc de sable qui ne pose pas de danger particulier. Attention tout même aux courants, surtout si les vagues sont grosses. Vous aurez la possibilité de vous écarter vers le sud port Rhu et Port Bara qui prennent un peu plus la houle et offrent des bancs assez bien formés. Pas vraiment débutant friendly, préférez plutôt les plages de Plouharnel et Penthievre (Mane Guen, Guéritte,...)
 
 # Mise à l'eau
-Directement par la plage, avec en bonus un assenceur le long de la falaise.
+Directement par la plage, avec en bonus un ascenseur le long de la falaise.
 
 
 # Pour Qui
-Les surfeurs intermédiaire quand ce n'est pas gros. Les plus confirmés sinon.
+Les surfeurs intermédiaires quand ce n'est pas gros. Les plus confirmés sinon.
 
 # Courant
 Potentiellement assez fort, soyez prudent
@@ -75,11 +75,11 @@ Potentiellement assez fort, soyez prudent
 # Pour
 - Un cadre magnifique
 - Bonne prise de la houle
-- De nombreux bancs de sables et sous spots dans la baie
+- De nombreux bancs de sable et sous spots dans la baie
 
 # Contre
 - Ce n'est pas un spot de débutant
 - Réputé pour sa mauvaise ambiance avec les locaux
 
 # Saisonnalité
-Très forte, évitez les vacances comme partout à Quiberon
+Très forte, évitez les vacances comme partout à Quiberon.

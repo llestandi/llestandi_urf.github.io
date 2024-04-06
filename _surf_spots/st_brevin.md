@@ -1,11 +1,12 @@
 ---
 layout: spot
+output: true
+
 author: Lucas Lestandi
 date: 01/03/2024
 title: "Saint-Brevin l'Ermitage"
 name: "L'Ermitage"
 ID: st_brevin
-output: true
 Departement: 44
 Infos_de_Base:
   Houles:
