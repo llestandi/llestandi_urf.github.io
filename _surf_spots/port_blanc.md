@@ -2,7 +2,7 @@
 layout: spot
 author: Lucas Lestandi
 date: 01/03/2024
-title: Port Blanc
+title: Port Blanc - Saint Pierre de Quiberon
 name: Port Blanc
 ID: port_blanc
 Departement: 56
