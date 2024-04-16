@@ -67,7 +67,8 @@ C'est en fait deux spots aux multiples pics dont on parle ici. Au nord, la torch
 
 > La Torche puis Pors Carn depuis la pointe de la Torche (Houle 3m OSO, vagues 2m).
 > {% include video id="xayCIFYlYRw" provider="youtube" %}
-> 
+>
+
 ## La torche
 
 

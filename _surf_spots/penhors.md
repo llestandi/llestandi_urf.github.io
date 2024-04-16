@@ -22,9 +22,7 @@ Infos_de_Base:
   Vent:
     - "NE"
     - "SE"
-  Type_de_Fond:
-    - Sable
-    - Rochés
+  Type_de_Fond: Sable et rochers selon les endroits
   Maree: Toutes
   Difficulte: "Pour tous"
   Type_de_vagues:
