@@ -58,6 +58,9 @@ excerpt: "Un spot aux aires de bout du monde. "
 # Le spot
 Au bout du cap Sizun, vous trouverez cette baie de quelques centaines de mètres nichée entre les falaises. Au sud, la fameuse pointe du Raz, au large, l'île de Sein filtreront les houles de sud-ouest et d'est. Au nord, encore des falaises qui couperont le vent de nord si vous vous placez près d'elles. Le spot magnifique et sauvage, ouvert sur les houles de l'Atlantique nord. **Très efficace pour attraper les faibles houles d'été**. Très efficace aussi pour attraper le vent d'ouest qui souffle une bonne partie de l'année sur ce cap très exposé.
 
+**Pro-tip:** Il y en a pour tous les gouts à la baie des trépassés, des gauches, au sud de la baie, des droites au nord et des deux au milieu! Le pic du milieu donne les vagues les plus creuses:
+{% include figure image_path="/assets/images/trepasses_A_frame.jpeg" alt="" caption="Au centre de la baie, quelques A-frames. *Weekend ALOA Avril 2024, Photo: Anthony Ponthieux*" %}
+
 {: .notice--success}
 Quelques écoles de surf sur la plage, vous pourrez **louer** du matos en saison ou prendre des cours!
 

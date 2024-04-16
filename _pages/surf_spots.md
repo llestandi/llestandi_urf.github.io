@@ -7,9 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 # Surf spots
-Ceci est le guide des spots de surf. 
+Le guide des spots de surf de l'ouest. Le but est de fournir un maximum d'information pour les débutants et surfeurs intermédiaires de l'asso. J'écrirai peut etre des articles régionaux à l'avenir. Le format de ces derniers n'est pas encore clair.
 
-> A venir:
-> - un moteur de recherche
-> - des guides sur les spots du weekend à Audierne
-
+> N'hésitez pas à utiliser le moteur de recherche (très performant) pour retrouver un spot. En effet, je peux avoir choisi un nom différence de celui que vous avez en tête.
