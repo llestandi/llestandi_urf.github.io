@@ -38,7 +38,7 @@ Infos_de_Base:
   Frequentation: surpeuplée
 Geographie:
   Position_GPS:
-    Latitude: 47.83970532078432, 
+    Latitude: 47.83970532078432
     Longitude: -4.3520886552656926
   Maps: https://maps.app.goo.gl/44PvtkxrFNu9xQpr7
   Points_dInteret:
