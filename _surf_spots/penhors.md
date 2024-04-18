@@ -3,7 +3,7 @@ layout: spot
 output: false
 
 author: Lucas Lestandi
-date: 07/04/2024
+date: 17/04/2024
 title: Penhors - Pouldreuzic
 name: Penhors
 ID: Penhors
@@ -53,7 +53,7 @@ header:
     - label: "Prévisions"
       url: "https://www.surf-forecast.com/breaks/Penhors/forecasts/latest/six_day"
 
-excerpt: ""
+excerpt: "Au nord de cette longue plage au fond de la baie d'Audierne, vous trouverez la plage de Penhors..."
 ---
 
 # Le spot
