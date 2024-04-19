@@ -61,7 +61,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-leaflet
+  #- jekyll-leaflet
 
 author:
   name   : "Lucas Lestandi"

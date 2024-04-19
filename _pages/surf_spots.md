@@ -12,14 +12,3 @@ Le guide des spots de surf de l'ouest. Le but est de fournir un maximum d'inform
 
 > N'hésitez pas à utiliser le moteur de recherche (très performant) pour retrouver un spot. En effet, je peux avoir choisi un nom différence de celui que vous avez en tête.
 
-> Carte en cours de développement
-{% leaflet_map {
-  "zoom" : 5,
-  "center" : [46, -4]
-  } %}
-  {%- for spot in site.surf_spots -%}
-    {% leaflet_marker { "latitude" : {{ spot.Geographie.Position_GPS.Latitude }},
-                        "longitude" : {{ spot.Geographie.Position_GPS.Longitude }},
-                        "popupContent" : "{{ spot.name }}" } %}
-  {% endfor %}
-{% endleaflet_map %}
