@@ -114,6 +114,9 @@ defaults:
     values:
       layout: single
       author_profile: False
+      toc_sticky: true
+      sidebar:
+        nav: "docs"
 
 category_archive:
   type: liquid
