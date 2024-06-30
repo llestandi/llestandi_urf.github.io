@@ -46,14 +46,14 @@ Geographie:
       Longitude:  -1.853198
 
 header: 
-  teaser: /assets/images/placeholder.jpg
-  overlay_image: /assets/images/placeholder.jpg
+  teaser: https://cdt85.media.tourinsoft.eu/upload/alamoureux-MG-0254.jpg?width=640&height=575&crop=1
+  overlay_image: https://cdt85.media.tourinsoft.eu/upload/alamoureux-MG-0254.jpg?width=640&height=575&crop=1
   caption: "Crédit: "
   actions:
     - label: "Prévisions"
       url: "https://fr.surf-forecast.com/breaks/Les-Dunes/forecasts/latest/six_day"
 
-excerpt: ""
+excerpt: "Vagues faciles et deux parkings!"
 ---
 
 # Le spot

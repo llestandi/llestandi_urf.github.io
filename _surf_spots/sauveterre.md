@@ -34,24 +34,24 @@ Infos_de_Base:
   Frequentation: "Fréquenté en toute saison"
 Geographie:
   Position_GPS:
-    Latitude: 46.
-    Longitude: -1.
+      Latitude: 46.55442
+      Longitude: -1.83687
   Maps: https://maps.app.goo.gl/z3kKtVx3fp9XZvP36
   Points_dInteret:
-    - Nom: ""
-      Description: ""
-      Latitude: 46.
-      Longitude: -1.
+    - Nom: "La baie des sables"
+      Description: "Bien abrité lorsqu'il y a du vent ou trop de houle"
+      Latitude: 46.49196
+      Longitude: -1.78297
 
 header: 
-  teaser: /assets/images/placeholder.jpg
-  overlay_image: /assets/images/placeholder.jpg
+  teaser: /assets/images/Sauveterre.jpg
+  overlay_image: /assets/images/Sauveterre.jpg
   caption: "Crédit: "
   actions:
     - label: "Prévisions"
       url: "https://fr.surf-forecast.com/"
 
-excerpt: ""
+excerpt: "Le spot le plus exposé de Vendée"
 ---
 
 # Le spot
