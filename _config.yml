@@ -116,7 +116,7 @@ defaults:
       author_profile: False
       toc_sticky: true
       sidebar:
-        nav: "docs"
+        nav: "beginner_guide"
 
 category_archive:
   type: liquid
