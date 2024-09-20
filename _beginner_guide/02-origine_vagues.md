@@ -165,6 +165,7 @@ histoire.
 
 # Pour aller plus loin
  - WAVES IN OCEANIC AND COASTAL WATERS, Leo Holthuijsen, 2007
+ - https://www.meted.ucar.edu/marine/mod3_wlc_propdis
  - [Formation et voyage des vagues à travers les océans](https://severeweather.wmo.int/TCFW/RAI_Training2017/12_CyclonicSwell-StormSurge_AdrienColomb.pdf)
- - [Un article détaillé sur l'évènement cyclonique du 6 septembre 2023 (Anglais)](https://www.surfline.com/surf-news/ex-hurricane-franklin-met-western-europe/186527)
- - [Un beau swell hivernal capturé sur surfline](https://www.surfline.com/surf-news/winters-best-across-western-europe/193109)
+ - [Un article détaillé sur l'évènement cyclonique du 6 septembre 2023 (en anglais)](https://www.surfline.com/surf-news/ex-hurricane-franklin-met-western-europe/186527)
+ - [Un beau swell hivernal capturé sur surfline (en anglais)](https://www.surfline.com/surf-news/winters-best-across-western-europe/193109)

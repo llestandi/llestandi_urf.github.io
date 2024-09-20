@@ -1,11 +1,9 @@
 main:
-  - title: "Posts"
+  - title: "Blog"
     url: /posts/
   - title: "Les spots"
     url: /surf_spots/
-  - title: "Guide débutants"
+  - title: "Surfologie"
     url: /beginner_guide/
-  - title: "Tags"
-    url: /tags/
   - title: "A propos de moi"
     url: /about/
