@@ -1,0 +1,19 @@
+beginner_guide:
+  - title: Quelques mots sur les vagues
+    children:
+      - title: "Anatomie d'une vague"
+        url: /beginner_guide/anatomie_vague/
+      - title: "D'ou vient la houle"
+        url: /beginner_guide/origine_houle/
+      - title: "Pourquoi s'occuper du vent?"
+        url: /beginner_guide/role_du_vent/
+      - title: "Et le fond alors?"
+        url: /beginner_guide/influence_du_fond/
+  - title: Bien choisir son spot pour débuter
+    children:
+      - title: "Je surf des mousses"
+        url: /beginner_guide/mousses/
+      - title: "Mes premières vagues"
+        url: /beginner_guide/green_wave/
+  - title: tips pour bien progresser
+    url: /beginner_guide/tips/
