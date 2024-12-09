@@ -25,11 +25,12 @@ Infos_de_Base:
   Type_de_Fond:
     - Sable
   Maree: Toutes
-  Difficulte: ""
+  Difficulte: "Au choix"
   Type_de_vagues:
     - moles (digue)
     - creux (la pendule)
     - courtes
+    - souvent fermantes
   Acces:
     - Voiture
     - train
@@ -88,10 +89,11 @@ Non
 # Contre
 - très fréquenté en été et pendant les vacances
 - parkings payant
+- vagues fermantes lorsque la période est supérieure à 11s
 
 # Saisonnalité
 - Marche toute l'année et proche de spots très exposés au besoin.
-- Un super replis pour l'hiver
+- Un super replis pour l'hiver même si les vagues sont souvent fermantes
 
 # Webcam
 - [Tanchet](https://www.lessablesdolonne.com/stream_camera/4-tanchet)
