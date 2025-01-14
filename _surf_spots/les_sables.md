@@ -64,7 +64,7 @@ excerpt: "Un spot urbain qui jouit d'une orientation sud rare dans la région...
 
 Les Sables d'Olonnes, bien connu comme ville de départ du Vendée globe et comme lieu saint pour les retraités de toutes la France présente aussi des atouts surfesques de grande qualité. Les instances du surf français ne s'y sont d'ailleurs pas trompé en y installant un centre de formation des moniteurs.
 
-En ce qui nous concerne, la commune des sables compte de nombreux spots du nord au sud dont les plus connus sont décrit sur ce site ([La gachère](la_gachere), [Sauveterre](sauveterre)) et d'autres au sud de la baie comme Tanchet (spot de marée haute) ou Cayola (attention rochers). Cet article s'intéresse à la baie elle même, c'est à dire la partie urbanisée qui forme une arche de la digue du port jusqu'aux roches noires.
+En ce qui nous concerne, la commune des sables compte de nombreux spots du nord au sud dont les plus connus sont décrit sur ce site ([La gachère](la_gachere), [Sauveterre](sauveterre)) et d'autres au sud de la baie comme Tanchet (spot de marée basse) ou Cayola (attention rochers). Cet article s'intéresse à la baie elle même, c'est à dire la partie urbanisée qui forme une arche de la digue du port jusqu'aux roches noires.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22275.35110619958!2d-1.7973415344854815!3d46.49339685494989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1733652401435!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 

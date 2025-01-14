@@ -70,7 +70,7 @@ layout: default
     <h2>S'y rendre</h2>
     <p>Département: {{ page.Departement }}</p>
     <p>Point GPS : ({{ page.Geographie.Position_GPS.Latitude }}, {{ page.Geographie.Position_GPS.Longitude }})</p>
-    <p><b>Google Maps</b>: <a href="{{ page.Geographie.Maps }}">{{ page.Geographie.Maps }}</a></p>
+    <p><a href="{{ page.Geographie.Maps }}"><b>📍 Lien Maps</b></a></p>
     <li>Accès:</li>
     <ul>
       {% for item in page.Infos_de_Base.Acces %}

@@ -61,7 +61,7 @@ Sauveterre se situe au nord des Sables d'Olonnes, plus précisément à Olonnes-
 
 Il y en a donc pour tous les goûts à Sauveterre, du classique vendéen au nord, du point break au pic du phoque et du creux "landais" au sud. Ne reste plus qu'a etre équipé et choisir!
 
-{% include figure image_path="/assets/images/pique_du_phoque.jpeg" alt="" caption="Le pic du phoque par houle longue du mois de janvier (1m5 OSO, 14s). *Photo : Mathieu, membre ALOA, 14 Janvier 2025*" %}
+{% include figure image_path="/assets/images/pic_du_phoque.jpeg" alt="" caption="Le pic du phoque par houle longue du mois de janvier (1m5 OSO, 14s). *Photo : Mathieu, membre ALOA, 14 Janvier 2025*" %}
 
 Pour la plupart des houles qui atteignent nos cotes, il s'agit du spot le plus exposé et on y observe facilement 30cm de plus qu'à St Gilles. A surveiller donc sur les petits swells d'été. 
 
@@ -80,8 +80,8 @@ Je n'ai pas remarqué de courant particulier lors de mes sessions. Au contraire,
 - prends bien la houle
 
 # Contre
-- du monde au phoque (et une mauvaise réputation des locaux)
+- du monde au phoque (et comme tous les points breaks, il pourra etre difficile de se faire une place parmis les locaux)
 - attention aux traitres rochers pour les débutants
 
 # Saisonnalité
-Comme ailleur en Vendée. Un bon candidat pour l'été.
+Comme ailleur en Vendée. Mais il s'agit d'un bon candidat pour l'été.
