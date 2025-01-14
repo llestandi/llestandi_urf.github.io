@@ -56,7 +56,12 @@ excerpt: "Le spot le plus exposé de Vendée"
 
 # Le spot
 Sauveterre se situe au nord des Sables d'Olonnes, plus précisément à Olonnes-sur-mer. Loin de l'ambiance de la ville, vous êtes accueillis par un parking à l'ancienne sur le sable. Pour accéder aux spots, deux options. Soit le petit chemin qui part vers le nord et la plage de sable de Sauveterre. Soit en face du parking ou une cale vous permet de descendre sur la plage. De la vous pouvez aller droit vers le large et rejoindre le pic du phoque. C'est une vague longue avec un pic (rocheux) bien marqué qui est toujours fréquenté par des longboards et autres grandes planches. Les amateurs de shortboards pourront donc s'abstenir s'ils ne souhaitent pas se faire taxer toute la session. Au sud de la cale (à votre gauche vu d'en haut), une zone qui ne paye pas de mine et qui est assez peu fréquentée. Cependant, elle propose une vague creuse, qui en fonction des tempêtes et de la marée peu offrir des rides sympathiques.
+
+{% include figure image_path="/assets/images/Sauveterre_sud.jpeg" alt="" caption="Au sud du pic du phoque par houle longue du mois de janvier (1m5 OSO, 14s). *Photo : Mathieu, membre ALOA, 14 Janvier 2025*" %}
+
 Il y en a donc pour tous les goûts à Sauveterre, du classique vendéen au nord, du point break au pic du phoque et du creux "landais" au sud. Ne reste plus qu'a etre équipé et choisir!
+
+{% include figure image_path="/assets/images/pique_du_phoque.jpeg" alt="" caption="Le pic du phoque par houle longue du mois de janvier (1m5 OSO, 14s). *Photo : Mathieu, membre ALOA, 14 Janvier 2025*" %}
 
 Pour la plupart des houles qui atteignent nos cotes, il s'agit du spot le plus exposé et on y observe facilement 30cm de plus qu'à St Gilles. A surveiller donc sur les petits swells d'été. 
 
