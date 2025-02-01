@@ -54,7 +54,7 @@ Pour le vent onshore, vous l'aurez compris c'est peine perdu dès qu'il dépasse
 Evidemment, un vent offshore faible à modéré est souvent idéal, suffisant pour organiser les vagues sans les déformer excessivement.
 
  
-{% include figure image_path="/assets/beginner_guide/role_du_vent/offshore_tube.jpg" alt="" caption="S'il n'y a pas de vent du tout: c'est glassy! *Crédit: Weekend ALOA Guilvinec*" %}
+{% include figure image_path="/assets/beginner_guide/role_du_vent/glassy.jpg" alt="" caption="S'il n'y a pas de vent du tout: c'est glassy! *Crédit: Weekend ALOA Guilvinec*" %}
 
 # Le vent, un élément capricieux
 
