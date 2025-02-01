@@ -8,8 +8,11 @@ header:
   caption: "Houle bien en ligne à Desert point (Maroc), Janvier 2024"
 toc: true
 classes: wide
-permalink: /beginner_guide/origine_houle/
+permalink: /beginner_guide/anatomie_vague/
 ---
+
+Penser une matrice type conditions géniales dans l'angle supérieur droit et pourries dans l'inférieur gauche et lier ça au vent et à la houle. 
+
 > *v0 proposée par chatGPT avec quelques idées intéressantes mais à réorganiser et à adapter pour notre public
 
 D'un point de vue physique, une vague est une perturbation qui se propage à la surface de l'eau. Elle est causée par le transfert d'énergie, généralement du vent à l'eau, mais aussi par d'autres forces comme les marées ou les activités géologiques (tremblements de terre, volcans sous-marins). La vague transporte cette énergie sans déplacer de manière significative l'eau elle-même, ce qui la distingue d'autres phénomènes physiques. 

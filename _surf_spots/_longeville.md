@@ -55,10 +55,9 @@ header:
 excerpt: ""
 ---
 
-# Le spot
+# Le(s) spot(s) : du rochers au fameux BudBud
 
 # Mise à l'eau
-
 
 # Pour Qui
 

@@ -135,7 +135,7 @@ Eh bien si, dans deux cas! Le premier, le plus fréquent, c'est
 lorsqu'une petite tempête passe près (ou sur) nos cotes. Dans ce cas, on
 a droit à une mer de vent. Au programme, un beau bazarre avec une houle
 généralement autour du mètre, 8-9s et du vent d'ouest avec un gros
-clapot. Si vous avez de la change il y aura un peu de soleil, mais vous
+clapot. Si vous avez de la chance il y aura un peu de soleil, mais vous
 n'avez pas surfé depuis 3 semaines donc vous y allez quand même.
 {% include figure popup=true image_path="/assets/beginner_guide/carte_depression_ete.jpeg" alt="" caption="Dépression estivale près des cotes françaises générant beaucoup de vent." %}
   
