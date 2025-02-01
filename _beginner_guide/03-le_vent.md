@@ -11,6 +11,10 @@ classes: wide
 permalink: /beginner_guide/role_du_vent/
 ---
 
+Article en cours d'écriture (1/02/2025)
+{: .notice--danger}
+
+
 > Nous avons parlé de [ce qu'est une vague](/surf/beginner_guide/anatomie_vague/) et de comment elle s'est [formée dans une tempête](/surf/beginner_guide/origine_houle/) au large mais nous avons omis un point crutial : l'interraction entre les vagues et le vent!
 
 Le vent joue un rôle fondamental dans la formation et la qualité des vagues, ce qui en fait un élément crucial pour tout surfeur. Essayons d'y voir un peu plus clair pour nos prochaines sessions Permettez-moi de vous expliquer pourquoi et comment le vent influence votre session de surf.
@@ -40,11 +44,17 @@ Surfer ces conditions devient plus difficile car la vague perd en puissance et e
 > **A Ecrire** Le vent side-shore (parallèle à la côte) peut avoir des effets variables selon son interaction avec la houle et la configuration du spot. Il peut créer des conditions intéressantes sur certains spots qui "marchent" spécifiquement avec ce type de vent.
 
 ## Influence de la puissance du vent
-L'intensité du vent est presque aussi importante que sa direction. Un vent offshore trop fort peut rendre difficile le passage de la barre ou même empêcher les vagues de déferler jusqu'à ce qu'il soit trop tard. Il va aussi rendre le takeoff beaucoup plus difficile. En effet, la rame face au vent est plus laborieuse, lorsque la vague se cabre il faut ramer encore et fermer les yeux pour éviter les embruns. Lorsque l'on parvient enfin à se lèver, le vent nous freine fortement est il n'est pas rare de rester scotché en haut de vague. 
+L'intensité du vent est presque aussi importante que sa direction. Un vent offshore trop fort peut rendre difficile le passage de la barre ou même empêcher les vagues de déferler jusqu'à ce qu'il soit trop tard. Il va aussi rendre le takeoff beaucoup plus difficile. En effet, la rame face au vent est plus laborieuse, lorsque la vague se cabre il faut ramer encore et fermer les yeux pour éviter les embruns. Lorsque l'on parvient enfin à se lèver, le vent nous freine fortement est il n'est pas rare de rester scotché en haut de vague.
+
+Au delà de 30km/h soutenu, il vous faudra sérieusement considérer une autre activité quelque soit la direction du vent!
+{: .notice--danger}
 
 Pour le vent onshore, vous l'aurez compris c'est peine perdu dès qu'il dépasse 10-15km/h. Idem, le side-shore est déjà délicat lorsqu'il souffle modérement, il va inévitablement générer du courant et une houle croisée s'il forcit. La seule issue sera de surfer près d'un abris (falaise,digue,...).
 
-Evidemment, un vent faible à modéré est souvent idéal, suffisant pour organiser les vagues sans les déformer excessivement.
+Evidemment, un vent offshore faible à modéré est souvent idéal, suffisant pour organiser les vagues sans les déformer excessivement.
+
+ 
+{% include figure image_path="/assets/beginner_guide/role_du_vent/offshore_tube.jpg" alt="" caption="S'il n'y a pas de vent du tout: c'est glassy! *Crédit: Weekend ALOA Guilvinec*" %}
 
 # Le vent, un élément capricieux
 
