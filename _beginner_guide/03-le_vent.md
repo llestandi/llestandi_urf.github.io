@@ -1,7 +1,7 @@
 ---
 title: Le vent, un acteur central
 author: Lucas
-date: 14/01/2025
+date: 12/02/2025
 teaser: /assets/beginner_guide/role_du_vent/offshore_large.jpg
 header:
   image: /assets/beginner_guide/role_du_vent/mer_demontee.jpg
@@ -10,11 +10,6 @@ toc: true
 classes: wide
 permalink: /beginner_guide/role_du_vent/
 ---
-
-Article en cours d'écriture (1/02/2025)
-{: .notice--danger}
-
-
 > Nous avons parlé de [ce qu'est une vague](/surf/beginner_guide/anatomie_vague/) et de comment elle s'est [formée dans une tempête](/surf/beginner_guide/origine_houle/) au large mais nous avons omis un point crutial : l'interraction entre les vagues et le vent!
 
 Le vent joue un rôle fondamental dans la formation et la qualité des vagues, ce qui en fait un élément crucial pour tout surfeur. Essayons d'y voir un peu plus clair pour nos prochaines sessions. 
